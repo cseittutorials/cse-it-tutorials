@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses-SQL</title>
+    <link rel="stylesheet" href="../../css/course.css" />
+    <script src="https://kit.fontawesome.com/19cfe7506f.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../../resources/shortcut-logo.png">
+  </head>
+
+  <body>
+    <div id="navbar">
+      <input type="checkbox" id="check" />
+      <label for="check">
+        <i class="fa-solid fa-bars" id="bar"></i>
+        <i class="fa-solid fa-xmark" id="cancel"></i>
+      </label>
+
+      <img src="../../resources/cit-logo.png" />
+
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../courses/courses.html">Courses</a></li>
+        <li><a href="../about-us.html">About Us</a></li>
+        <li><a href="../contact-us.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div id="content">
+      <div id="brief">
+        <div id="brief-left">
+          <img src="../../resources/sql-white.png" alt="sql-logo">
+          <div id="course-summary">
+            <p>SQL</p>
+            <p>Master SQL - The Language of Databases!</p>  
+          </div>
+          </div>
+        <div id="brief-right">
+          <div id="hundred"><p>100%</p></div>
+          <div id="hundred-info">
+            <p>Skill Guarantee<br>or<br>Money-BacK Guarantee</p>
+          </div>
+        </div>
+      </div>
+      <div id="overview">
+        <div id="info">
+          <p>Mode of Training</p>
+          <p>Live Classes</p>
+        </div>
+        <div id="info">
+          <p>Duration</p>
+          <p>3 - 5 Weeks</p>
+        </div>
+        <div id="info">
+          <p>Language</p>
+          <p>English / Telugu</p>
+        </div>
+        <div id="info">
+          <p>Skill Level</p>
+          <p>Beginner</p>
+        </div>
+        <div id="info">
+          <p>Pre-Requisites</p>
+          <p>None</p>
+        </div>
+      </div>
+
+      <div id="about-course-1">
+        <div id="course-overview">
+          <p>Course Overview</p>
+          <p>SQL is the standard language used to interact with databases, making it an essential skill for anyone involved in managing or analyzing data. Whether you're a software developer, data analyst, or aspiring data professional, mastering SQL is pivotal for unlocking the potential of databases.</p>
+          <br>
+          <p>Key Features</p>
+          <li>Engage in <b>live, interactive classes</b> with experienced tutors for real-time discussions, queries, and collaborative learning</li>
+          <li>Access over <b>40+ problem-solving exercises</b> integrated into the curriculum with <b>in-depth discussions on solutions during classes</b></li>
+          <li>Apply theoretical knowledge in real-world scenarios by working on <b>hands-on projects</b></li>
+          <li>Receive guidance in <b>resume building, group discussions, and mock interviews</b>, empowering you for the job market</li>
+          <li>Course Completion <b>Certificate</b> on successful completion of the course</li>
+          <!-- <li>If you don't feel confident in your SQL skills after completing our course, we offer a <b>100% money-back guarantee</b></li> -->
+        </div>
+      </div>
+
+      <div id="about-course-2">
+        <div id="course-details">
+          <p>Course Details</p>
+          <button onclick="toggleDiv(1)">Introduction to SQL <i class="fa-solid fa-angle-down" id="toggle-1"></i></button>
+          <div id="topic-1" class="topic">
+            <li>Introduction to SQL</li>
+            <li>Understanding databases and relational models</li>
+            <li>Basic SQL queries like SELECT, INSERT, UPDATE, DELETE etc</li>
+          </div>
+
+          <button onclick="toggleDiv(2)">Advanced Querying <i class="fa-solid fa-angle-down" id="toggle-2"></i></button>
+          <div id="topic-2" class="topic">
+            <li>Joins and subqueries for complex data retrieval</li>
+            <li>Aggregation functions and GROUP BY clause</li>
+          </div>
+
+          <button onclick="toggleDiv(3)">Data Manipulation <i class="fa-solid fa-angle-down" id="toggle-3"></i></button>
+          <div id="topic-3" class="topic">
+            <li>Working with multiple tables using JOIN operations</li>
+            <li>Modifying and managing database data efficiently</li>
+          </div>
+          
+          <button onclick="toggleDiv(4)">Data Definition Language (DDL) and Constraints <i class="fa-solid fa-angle-down" id="toggle-4"></i></button>
+          <div id="topic-4" class="topic">
+            <li>Creating and altering tables using DDL</li>
+            <li>Implementing constraints for data integrity</li>
+          </div>
+
+          <button onclick="toggleDiv(5)">Views, Indexes, and Transactions <i class="fa-solid fa-angle-down" id="toggle-5"></i></button>
+          <div id="topic-5" class="topic">
+            <li>Utilizing views for data abstraction</li>
+            <li>Enhancing database performance with indexes</li>
+            <li>Understanding and managing database transactions</li>
+          </div>
+        </div>
+
+        <div id="placement-kit">
+          <p>Placement Preparation Kit</p>
+          <button onclick="toggleDiv(8)">Resume Building Workshop <i class="fa-solid fa-angle-down" id="toggle-8"></i></button>
+          <div id="topic-8" class="topic">
+            <li>Learn the essentials of crafting an impactful resume tailored for job interviews</li>
+            <li>Understand the key elements and formatting to showcase your skills effectively</li>
+          </div>
+
+          <button onclick="toggleDiv(9)">Group Discussion Training <i class="fa-solid fa-angle-down" id="toggle-9"></i></button>
+          <div id="topic-9" class="topic">
+            <li>Practice and participate in group discussions to enhance communication skills</li>
+            <li>Gain confidence in expressing ideas and opinions in group discussion rounds</li>
+          </div>
+
+          <button onclick="toggleDiv(10)">Mock Interview Sessions <i class="fa-solid fa-angle-down" id="toggle-10"></i></button>
+          <div id="topic-10" class="topic">
+            <li>Engage in mock interviews simulating real job interviews for Java positions</li>
+            <li>Receive constructive feedback and guidance on improving interview skills</li>
+          </div>
+
+          <button onclick="toggleDiv(11)">Interview Question Practice <i class="fa-solid fa-angle-down" id="toggle-11"></i></button>
+          <div id="topic-11" class="topic">
+            <li>Access a repository of Java-specific interview questions and scenarios</li>
+            <li>Prepare for technical interviews with a comprehensive set of practice questions</li>
+          </div>
+        </div>
+      </div>
+
+      <div id="register">
+        <div id="register-wrapper">
+          <div id="upcoming-batches">
+            <p>Upcoming Batches</p>
+            <div id="batch">
+              <p>Dec 11<sup>th</sup></p>
+              <p>Weekdays</p>
+              <p>Mon - Fri (3 - 5 Weeks)</p>
+            </div>
+            <div id="batch">
+              <p>Dec 23<sup>rd</sup></p>
+              <p>Weekend</p>
+              <p>Sat - Sun (3 - 5 Weeks)</p>
+            </div>
+          </div>
+          <div id="course-fee">
+            <p>Course Fee</p>
+            <p>Rs.4,999/-</p>
+            <button onclick="window.location.href='../register.html'">Enroll Now</button>
+          </div>
+        </div>
+        
+        <div id="register-demo">
+          <p>Still in doubt?</p>
+          <div id="registration-form">
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSdp3_ujLEbNgMoHsumfqEsBFwYCg_SOldX6B0cJOLPCqDOrlQ/formResponse">
+              <p>Register for a free demo class</p>
+              <input type="text" name="entry.2005620554" placeholder="Full Name" required>
+              <input type="email" name="entry.1045781291" placeholder="Email" required>
+              <input name="entry.1166974658" placeholder="Mobile Number" oninput="this.value = this.value.replace(/[^0-9+]/g, '').replace(/(\..*?)\..*/g, '$1');" required />
+              <select name="entry.774554614">
+                <option value="SQL">SQL</option>
+              </select>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function toggleDiv(number) {
+        var idName = "topic-" + number.toString();
+        var displayType = document.getElementById(idName).style.display;
+
+        if (displayType == "none") {
+          document.getElementById(idName).style.display = 'block';
+          document.getElementById("toggle-"+number.toString()).className = "fa-solid fa-angle-up"
+        }
+        else {
+          document.getElementById(idName).style.display = 'none';
+          document.getElementById("toggle-"+number.toString()).className = "fa-solid fa-angle-down"
+        }
+      }
+      for (let i=1; i<12; i++) {
+        toggleDiv(i);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cedarville Cursive");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background: #ebf1f8;
+  background-size: 100%;
+  background-position: cover;
+}
+
+#navbar {
+  display: block;
+  height: 90px;
+  background: #4E4FEB;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar img {
+  width: 80px;
+  position: absolute;
+  top: 10px;
+  left: 8%;
+}
+
+#navbar ul {
+  float: right;
+  margin-right: 25px;
+}
+
+#navbar ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
+}
+
+#navbar ul li a {
+  position: relative;
+  color: white;
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+#navbar ul li a:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: white;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s linear;
+}
+
+#navbar ul li a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+#navbar #bar,
+#navbar #cancel {
+  color: white;
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#navbar #check {
+  display: none;
+}
+
+#home {
+  /* border: 1px solid; */
+  display: block;
+  height: 500px;
+  margin-top: 150px;
+  font-size: 17px;
+  color: #4E4FEB;
+  text-align: center;
+}
+
+#home img {
+  width: 650px;
+  margin: 30px auto auto auto;
+}
+
+#home h4 {
+  font-family: "Cedarville Cursive";
+  font-size: 20px;
+}
+
+#features {
+  /* border: 2px solid black; */
+  margin-top: 60px;
+  text-align: center;
+}
+
+#features span {
+  font-size: 24px;
+  color: #4E4FEB;
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#feature {
+  width: 330px;
+  height: 250px;
+  background-color: #4E4FEB;
+  border: black;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 10px ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  @media (max-width: 460px) {
+    width: 310px;
+  }
+
+  @media (max-width: 320px) {
+    width: 300px;
+  }
+}
+
+#feature img {
+  width: 80px;
+  margin-top: 25px;
+}
+
+#feature p:nth-of-type(1) {
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+#feature p:nth-of-type(2) {
+  /* border: 2px solid yellow; */
+  margin: 30px 10px 5px 10px;
+  font-size: 14px;
+  color: #ebf1f8;
+  display: table;
+}
+
+@media (max-width: 1118px) {
+  #navbar img {
+    left: 5%;
+  }   
+}
+
+@media (max-width: 944px) {
+  #navbar img {
+    left: 3%;
+    top: 20px;
+    width: 70px;
+  }
+
+  #navbar ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 860px) {
+  body {
+    background-size: 100vh;
+  }
+
+  #navbar img {
+    width: 65px;
+  }
+
+  #navbar #bar {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #4E4FEB;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  #navbar ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  #navbar ul li a {
+    font-size: 20px;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+  #check:checked ~ #navbar #bar {
+    display: none;
+  }
+
+  #check:checked ~ #navbar #cancel {
+    display: block;
+  }
+
+  #home {
+    margin-top: 150px;
+    font-size: 15px;
+  }
+
+  #home h4 {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 460px) {
+  #home img {
+    width: 320px;
+    margin: 10px auto auto auto;
+  }
+}
