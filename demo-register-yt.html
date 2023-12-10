@@ -40,7 +40,7 @@
             <option value="Java">Java</option>
             <option value="Python">Python</option>
           </select>
-          <button type="submit" onclick="checkForm()">Submit</button>
+          <button type="submit" onclick="return checkForm()">Submit</button>
         </form>
       </div>
     </div>
@@ -50,7 +50,7 @@
                 alert("Please Choose a Course");
                 return false; 
             } else {
-                document.getElementsByTagName("submit").submit();
+                document.getElementsByTagName("button").submit();
             }
         }
     </script>
