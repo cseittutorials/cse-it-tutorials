@@ -15,7 +15,7 @@ body {
 #navbar {
   display: block;
   height: 90px;
-  background: #4e4feb;
+  background: #01377D;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -89,7 +89,7 @@ body {
 #courses-body h2 {
   text-align: center;
   text-transform: uppercase;
-  color: #4e4feb;
+  color: #01377D;
 }
 
 #courses {
@@ -98,13 +98,13 @@ body {
 }
 
 #course {
-  border: 2px solid #4e4feb;
+  border: 2px solid #01377D;
   border-radius: 10px;
   height: 300px;
   width: 250px;
   margin: 10px;
   display: inline-block;
-  background: #4e4feb;
+  background: #01377D;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -127,13 +127,13 @@ body {
   height: 40px;
   width: 120px;
   border-radius: 50px;
-  color: #4e4feb;
+  color: #01377D;
   font-family: "Lexend Deca", sans-serif;
 }
 
 #course button:hover {
   border: 2px solid #ebf1f8;
-  background-color: #4e4feb;
+  background-color: #01377D;
   color: white;
   cursor: pointer;
 }
@@ -177,7 +177,7 @@ body {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #4e4feb;
+    background: #01377D;
     top: 80px;
     left: -100%;
     text-align: center;

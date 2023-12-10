@@ -23,7 +23,7 @@ body {
   /* border: 2px solid beige; */
   display: block;
   height: 90px;
-  background: #4e4feb;
+  background: #01377D;
   overflow: hidden;
   position: fixed;
   width: 100%;
@@ -123,7 +123,7 @@ body {
 #brief-left img {
   width: 70px;
   padding: 20px;
-  background-color: #4e4feb;
+  background-color: #01377D;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -471,7 +471,7 @@ body {
 
 #course-details button,
 #placement-kit button {
-  background-color: #4e4feb;
+  background-color: #01377D;
   border: 0;
   text-align: left;
   padding: 10px;
@@ -616,7 +616,7 @@ body {
 }
 
 #upcoming-batches p {
-  background-color: #4e4feb;
+  background-color: #01377D;
   padding: 10px;
   border-radius: 10px 10px 0 0;
   color: white;
@@ -666,7 +666,7 @@ body {
 }
 
 #course-fee p:nth-of-type(2) {
-  color: #4e4feb;
+  color: #01377D;
   font-size: 28px;
   margin: 5px 0 10px 0;
 
@@ -692,7 +692,7 @@ body {
 
 #course-fee button:hover {
   cursor: pointer;
-  background-color: #4e4feb;
+  background-color: #01377D;
 }
 
 #register-demo {
@@ -787,7 +787,7 @@ body {
 
 #registration-form button:hover {
   cursor: pointer;
-  background: #4e4feb;
+  background: #01377D;
 }
 
 @media (max-width: 1118px) {
@@ -818,7 +818,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #4e4feb;
+    background-color: #01377D;
   }
 
   #navbar img {
@@ -833,7 +833,7 @@ body {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #4e4feb;
+    background: #01377D;
     top: 80px;
     left: -100%;
     text-align: center;
