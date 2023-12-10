@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Courses-Java</title>
-    <link rel="stylesheet" href="../../css/course.css" />
+    <title>Courses-SQL</title>
+    <link rel="stylesheet" href="../css/course.css" />
     <script src="https://kit.fontawesome.com/19cfe7506f.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="../../resources/shortcut-logo.png">
+    <link rel="shortcut icon" href="../resources/shortcut-logo.png">
   </head>
 
   <body>
@@ -17,11 +17,11 @@
         <i class="fa-solid fa-xmark" id="cancel"></i>
       </label>
 
-      <img src="../../resources/cit-logo.png" />
+      <img src="../resources/cit-logo.png" />
 
       <ul>
-        <li><a href="../../index.html">Home</a></li>
-        <li><a href="../courses/courses.html">Courses</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../courses.html">Courses</a></li>
         <li><a href="../about-us.html">About Us</a></li>
         <li><a href="../contact-us.html">Contact Us</a></li>
       </ul>
@@ -29,10 +29,10 @@
     <div id="content">
       <div id="brief">
         <div id="brief-left">
-          <img src="../../resources/java-white.png" alt="java-logo">
+          <img src="../resources/sql-white.png" alt="sql-logo">
           <div id="course-summary">
-            <p>Java Programming</p>
-            <p>Learn to code in Java, a widely used programming language for creating mobile apps, desktop apps, games, and more.</p>  
+            <p>SQL</p>
+            <p>Master SQL - The Language of Databases!</p>  
           </div>
           </div>
         <div id="brief-right">
@@ -49,7 +49,7 @@
         </div>
         <div id="info">
           <p>Duration</p>
-          <p>6 - 8 Weeks</p>
+          <p>3 - 5 Weeks</p>
         </div>
         <div id="info">
           <p>Language</p>
@@ -68,69 +68,51 @@
       <div id="about-course-1">
         <div id="course-overview">
           <p>Course Overview</p>
-          <p>Unlock the full potential of Java with our comprehensive Core Java course. This program is meticulously designed to equip you with the fundamental skills needed to excel in Java development.</p>
+          <p>SQL is the standard language used to interact with databases, making it an essential skill for anyone involved in managing or analyzing data. Whether you're a software developer, data analyst, or aspiring data professional, mastering SQL is pivotal for unlocking the potential of databases.</p>
           <br>
           <p>Key Features</p>
           <li>Engage in <b>live, interactive classes</b> with experienced tutors for real-time discussions, queries, and collaborative learning</li>
-          <li>Access over <b>70+ problem-solving exercises</b> integrated into the curriculum with <b>in-depth discussions on solutions during classes</b></li>
+          <li>Access over <b>40+ problem-solving exercises</b> integrated into the curriculum with <b>in-depth discussions on solutions during classes</b></li>
           <li>Apply theoretical knowledge in real-world scenarios by working on <b>hands-on projects</b></li>
           <li>Receive guidance in <b>resume building, group discussions, and mock interviews</b>, empowering you for the job market</li>
           <li>Course Completion <b>Certificate</b> on successful completion of the course</li>
-          <li>If you don't feel confident in your Java skills after completing our course, we offer a <b>100% money-back guarantee</b></li>
+          <!-- <li>If you don't feel confident in your SQL skills after completing our course, we offer a <b>100% money-back guarantee</b></li> -->
         </div>
       </div>
 
       <div id="about-course-2">
         <div id="course-details">
           <p>Course Details</p>
-          <button onclick="toggleDiv(1)">Introduction to Java Programming <i class="fa-solid fa-angle-down" id="toggle-1"></i></button>
+          <button onclick="toggleDiv(1)">Introduction to SQL <i class="fa-solid fa-angle-down" id="toggle-1"></i></button>
           <div id="topic-1" class="topic">
-            <li>Introduction to Java and its features</li>
-            <li>Setting up Java development environment</li>
-            <li>Basic syntax, variables, and data types</li>
-            <li>Control flow statements: if, else, loops (while, for, do-while)</li>
+            <li>Introduction to SQL</li>
+            <li>Understanding databases and relational models</li>
+            <li>Basic SQL queries like SELECT, INSERT, UPDATE, DELETE etc</li>
           </div>
 
-          <button onclick="toggleDiv(2)">Object-Oriented Programming Concepts <i class="fa-solid fa-angle-down" id="toggle-2"></i></button>
+          <button onclick="toggleDiv(2)">Advanced Querying <i class="fa-solid fa-angle-down" id="toggle-2"></i></button>
           <div id="topic-2" class="topic">
-            <li>Understanding classes and objects</li>
-            <li>Encapsulation, inheritance, and polymorphism</li>
-            <li>Abstract classes and interfaces</li>
-            <li>Constructors and destructors</li>
+            <li>Joins and subqueries for complex data retrieval</li>
+            <li>Aggregation functions and GROUP BY clause</li>
+          </div>
+
+          <button onclick="toggleDiv(3)">Data Manipulation <i class="fa-solid fa-angle-down" id="toggle-3"></i></button>
+          <div id="topic-3" class="topic">
+            <li>Working with multiple tables using JOIN operations</li>
+            <li>Modifying and managing database data efficiently</li>
           </div>
           
-          <button onclick="toggleDiv(3)">Java Collections Framework <i class="fa-solid fa-angle-down" id="toggle-3"></i></button>
-          <div id="topic-3" class="topic">
-            <li>Overview of the Collections Framework</li>
-            <li>Importance and advantages of collections in Java</li>
-            <li>Understanding and implementing interfaces: List, Set, Map</li>
-          </div>
-
-          <button onclick="toggleDiv(4)">Exception Handling and Input/Output in Java <i class="fa-solid fa-angle-down" id="toggle-4"></i></button>
+          <button onclick="toggleDiv(4)">Data Definition Language (DDL) and Constraints <i class="fa-solid fa-angle-down" id="toggle-4"></i></button>
           <div id="topic-4" class="topic">
-            <li>Handling exceptions and errors</li>
-            <li>File handling: Reading and writing files</li>
-            <li>Serialization and deserialization</li>
+            <li>Creating and altering tables using DDL</li>
+            <li>Implementing constraints for data integrity</li>
           </div>
 
-          <button onclick="toggleDiv(5)">Multithreading and Concurrency <i class="fa-solid fa-angle-down" id="toggle-5"></i></button>
+          <button onclick="toggleDiv(5)">Views, Indexes, and Transactions <i class="fa-solid fa-angle-down" id="toggle-5"></i></button>
           <div id="topic-5" class="topic">
-            <li>Basics of multithreading</li>
-            <li>Synchronization and thread safety</li>
-            <li>Executor framework and concurrent collections</li>
-          </div>
-  
-          <button onclick="toggleDiv(6)">Database Connectivity with JDBC <i class="fa-solid fa-angle-down" id="toggle-6"></i></button>
-          <div id="topic-6" class="topic">
-            <li>Introduction to JDBC (Java Database Connectivity)</li>
-            <li>Connecting and querying databases</li>
-            <li>Working with result sets and prepared statements</li>
-          </div>
-
-          <button onclick="toggleDiv(7)">Comprehensive Review and Hands-On Project <i class="fa-solid fa-angle-down" id="toggle-7"></i></button>
-          <div id="topic-7" class="topic">
-            <li>Comprehensive review of concepts learned</li>
-            <li>Hands-on project applying Java programming skills</li>
+            <li>Utilizing views for data abstraction</li>
+            <li>Enhancing database performance with indexes</li>
+            <li>Understanding and managing database transactions</li>
           </div>
         </div>
 
@@ -167,20 +149,20 @@
           <div id="upcoming-batches">
             <p>Upcoming Batches</p>
             <div id="batch">
-              <p>Dec 18<sup>th</sup></p>
+              <p>Dec 11<sup>th</sup></p>
               <p>Weekdays</p>
-              <p>Mon - Fri (6 - 8 Weeks)</p>
+              <p>Mon - Fri (3 - 5 Weeks)</p>
             </div>
             <div id="batch">
-              <p>Jan 03<sup>rd</sup></p>
+              <p>Dec 23<sup>rd</sup></p>
               <p>Weekend</p>
-              <p>Sat - Sun (6 - 8 Weeks)</p>
+              <p>Sat - Sun (3 - 5 Weeks)</p>
             </div>
           </div>
           <div id="course-fee">
             <p>Course Fee</p>
-            <p>Rs.9,999/-</p>
-            <button onclick="window.location.href='../register.html'">Enroll Now</button>
+            <p>Rs.4,999/-</p>
+            <button onclick="window.location.href='../enroll.html'">Enroll Now</button>
           </div>
         </div>
         
@@ -193,7 +175,7 @@
               <input type="email" name="entry.1045781291" placeholder="Email" required>
               <input name="entry.1166974658" placeholder="Mobile Number" oninput="this.value = this.value.replace(/[^0-9+]/g, '').replace(/(\..*?)\..*/g, '$1');" required />
               <select name="entry.774554614">
-                <option value="Java">Java</option>
+                <option value="SQL">SQL</option>
               </select>
               <button type="submit">Submit</button>
             </form>
